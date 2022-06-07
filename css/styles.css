@@ -1,0 +1,196 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.video-bg-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.title-content {
+    text-align: left;
+    padding: 0% 10%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+}
+
+.main-heading {
+    color: #8FBDD3;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+.title-content h3 {
+    color: #E4D1B9;
+    font-size: 80%;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 300;
+}
+
+.btn-title {
+    color: #8FBDD3;
+    font-family: 'Poppins', 'sans-serif';
+    border: 3px solid #8FBDD3;
+    margin: 2% 2%;
+}
+
+.btn-title:hover {
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: #A97155;
+}
+
+.video-bg-container video {
+    z-index: -1;
+    filter: brightness(25%);
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-fluid {
+    padding: 10% 12%;
+}
+
+.features {
+    background-color: #fff;
+}
+
+.feature {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5%;
+}
+
+.feature h2 {
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 600;
+}
+
+.gen-text {
+    color: rgb(153, 150, 150);
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 300;
+}
+
+.feature i {
+    font-size: 3rem;
+    padding-bottom: 5%;
+    color: #5584AC;
+}
+
+#call-to-action {
+    background-image: url("img/nature_pic.jpg");
+    background-color: #8FBDD3;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.email-ctrl {
+    padding: 0% 20%;
+    padding-top: 2%;
+}
+
+.btn-c2a {
+    color: #E4D1B9;
+    font-family: 'Poppins', 'sans-serif';
+    border: 3px solid #E4D1B9;
+}
+
+.btn-c2a:hover {
+    background-color: #A97155;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.foot-ico {
+    color: #5584AC;
+    padding: 3%;
+}
+
+@media screen and (max-width: 426px)
+{
+    .feature i{
+        font-size: 2rem;
+    }
+
+    .email-ctrl {
+        padding: 0;
+        padding-top: 5%;
+    }
+
+    #call-to-action h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 2560px)
+{
+    .main-heading {
+        font-size: 4.2rem;
+    }
+
+    .title-content {
+        font-size: 3rem;
+    }
+
+    .btn-title {
+        font-size: 2rem;
+        border: 5px solid #8FBDD3;
+        padding: 0.75% 0.75%;
+    }
+
+    .btn-title:hover {
+        border: 5px solid #fff;
+    }
+
+    .feature i {
+        font-size: 6rem;
+    }
+
+    .feature {
+        font-size: 2rem;
+    }
+
+    .feature h2{
+        font-size: 3rem;
+    }
+
+    #call-to-action h1 {
+        font-size: 4rem;
+    }
+
+    .email-ctrl input {
+        font-size: 2rem;
+    }
+
+    .btn-c2a {
+        font-size: 2rem;
+        border: 4px solid #E4D1B9;
+    }
+
+    .btn-c2a:hover {
+        border: 4px solid #fff;
+    }
+
+    #footer {
+        font-size: 2rem;
+    }
+}
+
